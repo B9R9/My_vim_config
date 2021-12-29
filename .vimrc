@@ -30,6 +30,10 @@ set cursorline
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
 
+"Display tab,eol,space
+set list 
+set listchars=eol:$,tab:\|-,trail:~,extends:>,precedes:<,space:-
+
 " Set shift width to 4 spaces.
 set shiftwidth=4
 
