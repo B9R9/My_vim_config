@@ -1,22 +1,27 @@
-" Disable compatibility with vi which can cause unexpected issues.
+
+" Disable compatibility with vi which can cause unexpected issues."
 set nocompatible
 
-" Enable type file detection. Vim will be able to try to detect the type of file in use.
+" Enable type file detection. Vim will be able to try to detect the type of file in use."
 filetype on
 
-" Enable plugins and load plugin for the detected file type.
+" Enable plugins and load plugin for the detected file type."
 filetype plugin on
 
-" Load an indent file for the detected file type.
+" Load an indent file for the detected file type."
 filetype indent on
 
-"Turn syntax highlighting on.
+"Turn syntax highlighting on."
 syntax on
-
-"Add numbers to each line on the left-hand side
+"Colorscheme activivate
+try
+    colorscheme molokai
+catch
+endtry
+"Add numbers to each line on the left-hand side"
 set number
 
-"You can see which column and line the cursor is
+"You can see which column and line the cursor is"
 set ruler
 
 " Highlight cursor line underneath the cursor horizontally.
