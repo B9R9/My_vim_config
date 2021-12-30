@@ -49,8 +49,14 @@ set nobackup
 " Do not let cursor scroll below or above N number of lines when scrolling.
 set scrolloff=10
 
-" Do not wrap lines. Allow long lines to extend as far as the line goes.
-set nowrap
+" wrap lines.
+set wrap
+
+"make it not wrap in midle of a \"word" Doesnt work if set list is active
+set linebreak
+
+"Size of 1 line
+set textwidth=80
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
