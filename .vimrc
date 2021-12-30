@@ -53,7 +53,7 @@ set scrolloff=10
 set wrap
 
 "make it not wrap in midle of a \"word" Doesnt work if set list is active
-set linebreak
+"set linebreak
 
 "Size of 1 line
 set textwidth=80
@@ -96,6 +96,11 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 "Enable mouse usage (all modes)
 set mouse=a
 
+"Disable bell sound
+set visualbell
+
+"Display a char in case error ex when you go to up or down
+set vb t_vb=^^
 "Config 42header
 let g:user42 = 'briffard'
 let g:mail42 = 'briffard@student.42.fr'
