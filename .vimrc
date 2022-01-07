@@ -32,7 +32,7 @@ set cursorcolumn
 
 "Display tab,eol,space
 set list 
-set listchars=eol:$,tab:\|-,trail:~,extends:>,precedes:<,space:-
+set listchars=eol:$,tab:\|-,trail:~,extends:>,precedes:<
 
 " Set shift width to 4 spaces.
 set shiftwidth=4
