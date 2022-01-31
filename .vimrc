@@ -106,6 +106,15 @@ set nofixendofline
 "Display a char in case error ex when you go to up or down
 set vb t_vb=^^
 
+"Autoclose
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
 "Config 42header
 let g:user42 = 'briffard'
 let g:mail42 = 'briffard@student.42.fr'
